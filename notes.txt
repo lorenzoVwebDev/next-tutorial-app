@@ -1,0 +1,5 @@
+continue from "project structure":
+(sentece to search into the project structure section with ctrl + f)
+Private folders can be created by prefixing a folder with an underscore: _folderName
+
+This indicates the folder is a private implementation detail and should not be considered by the routing system, thereby opting the folder and all its subfolders out of routing.
