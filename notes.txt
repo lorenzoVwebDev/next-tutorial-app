@@ -1,5 +1,3 @@
-continue from "project structure":
+continue from "css":
 (sentece to search into the project structure section with ctrl + f)
-Private folders can be created by prefixing a folder with an underscore: _folderName
-
-This indicates the folder is a private implementation detail and should not be considered by the routing system, thereby opting the folder and all its subfolders out of routing.
+To use global styles, create a app/global.css file and import it in the root layout to apply the styles to every route in your application:
