@@ -1,3 +1,2 @@
-continue from "css":
-(sentece to search into the project structure section with ctrl + f)
-To use global styles, create a app/global.css file and import it in the root layout to apply the styles to every route in your application:
+continue from "Updating Data":
+You can update data in Next.js using React's Server Functions. This page will go through how you can create and invoke Server Functions.
