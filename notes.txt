@@ -1,2 +1,3 @@
-continue from "Updating Data":
-You can update data in Next.js using React's Server Functions. This page will go through how you can create and invoke Server Functions.
+finish the common component "header" style
+continue from "Layouts and Templates" (Building your application):
+Nesting layouts

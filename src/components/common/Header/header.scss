@@ -1,0 +1,30 @@
+@import '../../../style/mixin';
+
+header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding-left: calc(1vw + 1vh);
+ padding-right: calc(1vw + 1vh);
+ padding-top: calc(1vw + 1vh);
+ padding-bottom: calc(1vw + 1vh);
+ background-color: $black-header;
+ & div.logo {
+  @include poppins-bold;
+  & span {
+    @include poppins-bold;
+    color: $neon-text;
+  }
+ }
+ & ul {
+  display: flex;
+  gap: calc(0.5vw + 0.5vh);
+  list-style-type: none;
+  & a {
+    @include poppins-bold
+  }
+ }
+}
+
+
+@import '../../../style/media';

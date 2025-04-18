@@ -1,17 +1,19 @@
-import Page from '@/pages/page'
+import Footer from '@/components/common/Footer/Footer.js'
+import GitHeader from '@/components/common/GitRepositoryHeader/GitRepositoryHeader.js'
+import '@/style/index.scss';
 
-function RootLayout({
-  children
-}: {
+function AppLayout({children}: {
   children: React.ReactNode
 }) {
   return (
-    <html lang="eng">
+    <html>
       <body>
-        <Page/>
+        <GitHeader/>
+        <main>{children}</main>
+        <Footer/>
       </body>
     </html>
   )
-};
+}
 
-export default RootLayout
+export default AppLayout

@@ -4,6 +4,7 @@
     "paths": {
       "@/pages/*": ["pages/*"],
       "@/components/*": ["components/*"],
+      "@/style/*": ["style/*"],
     },
     "target": "ES2017",
     "lib": [
